@@ -1,7 +1,7 @@
 module.exports = ({ env }) => ({
     'users-permissions': {
       config: {
-      jwtSecret: env('JWT_SECRET', 'asdsdgr34reg43'),
+      jwtSecret: env('JWT_SECRET', '4yxyPjqTpeaYqgAfQ3lHNobWg0D6fn0QsATeImylL4E'),
       },
     },
     upload: {
@@ -19,3 +19,7 @@ module.exports = ({ env }) => ({
       },
     },
   });
+
+
+  /*4yxyPjqTpeaYqgAfQ3lHNobWg0D6fn0QsATeImylL4E*/
+  /*asdsdgr34reg43 */
