@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
       port: env.int('PGPORT', 5432),
       database: env('PGDATABASE', 'postgres'),
       user: env('PGUSER', 'postgres'),
-      password: env('PGPASSWORD', 'Nisseha1997'),
+      password: env('PGPASSWORD', 'INSERTPW!'),
       ssl: env.bool(false),
     },
   },
