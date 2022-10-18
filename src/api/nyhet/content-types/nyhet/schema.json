@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nyhets",
+  "info": {
+    "singularName": "nyhet",
+    "pluralName": "nyhets",
+    "displayName": "Nyhet"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Rubrik": {
+      "type": "string",
+      "required": true
+    },
+    "Beskrivning": {
+      "type": "richtext",
+      "required": true
+    },
+    "Bild": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Datum": {
+      "type": "date",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

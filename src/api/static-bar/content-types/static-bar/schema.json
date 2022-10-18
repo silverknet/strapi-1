@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "static_bars",
+  "info": {
+    "singularName": "static-bar",
+    "pluralName": "static-bars",
+    "displayName": "Static bar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "fblogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
