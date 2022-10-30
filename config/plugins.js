@@ -26,6 +26,9 @@ module.exports = ({ env }) => ({
   /*asdsdgr34reg43 */
 
   module.exports = ({ env }) => ({
+    'drag-drop-content-types': {
+      enabled: true
+    },
     'users-permissions': {
       config: {
       jwtSecret: env('JWT_SECRET', '4yxyPjqTpeaYqgAfQ3lHNobWg0D6fn0QsATeImylL4E'),
