@@ -4,7 +4,8 @@
   "info": {
     "singularName": "nyhet",
     "pluralName": "nyhets",
-    "displayName": "Nyhet"
+    "displayName": "Nyhet",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,15 +21,15 @@
       "required": true
     },
     "Bild": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     },
     "Datum": {
       "type": "date",
@@ -37,6 +38,12 @@
     "url": {
       "type": "string",
       "required": true
+    },
+    "dnd_title": {
+      "type": "string"
+    },
+    "rank": {
+      "type": "integer"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "styrelsemedlem",
     "pluralName": "styrelsemedlems",
-    "displayName": "Styrelsemedlem"
+    "displayName": "Styrelsemedlem",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,6 +27,12 @@
     "Telefonnummer": {
       "type": "string",
       "required": true
+    },
+    "dnd_title": {
+      "type": "string"
+    },
+    "rank": {
+      "type": "integer"
     }
   }
 }

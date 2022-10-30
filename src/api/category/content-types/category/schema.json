@@ -20,6 +20,12 @@
       "relation": "manyToMany",
       "target": "api::page.page",
       "inversedBy": "categories"
+    },
+    "dnd_title": {
+      "type": "string"
+    },
+    "rank": {
+      "type": "integer"
     }
   }
 }
