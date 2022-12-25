@@ -28,11 +28,11 @@
       "type": "string",
       "required": true
     },
-    "dnd_title": {
-      "type": "string"
-    },
     "rank": {
       "type": "integer"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

@@ -27,7 +27,7 @@
         "audios"
       ]
     },
-    "Namn": {
+    "title": {
       "type": "string",
       "maxLength": 30
     },
@@ -40,9 +40,6 @@
     "url": {
       "type": "text",
       "required": true
-    },
-    "dnd_title": {
-      "type": "string"
     },
     "rank": {
       "type": "integer"
