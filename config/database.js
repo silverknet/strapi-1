@@ -1,4 +1,4 @@
-/*
+
 module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
@@ -7,14 +7,14 @@ module.exports = ({ env }) => ({
       port: env.int('PGPORT', 5432),
       database: env('PGDATABASE', 'postgres'),
       user: env('PGUSER', 'postgres'),
-      password: env('PGPASSWORD', 'inserPW'),
+      password: env('PGPASSWORD', 'Nisseha1997'),
       ssl: env.bool(false),
     },
   },
 });
-*/
 
 
+/*
 module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
@@ -28,3 +28,4 @@ module.exports = ({ env }) => ({
     },
   },
 });
+*/
