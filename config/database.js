@@ -1,4 +1,4 @@
-/*
+
 module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
@@ -12,9 +12,9 @@ module.exports = ({ env }) => ({
     },
   },
 });
-*/
 
 
+/*
 module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
@@ -24,7 +24,8 @@ module.exports = ({ env }) => ({
       database: env('PGDATABASE', 'strapi'),
       user: env('PGUSER', 'strapi'),
       password: env('PGPASSWORD', 'password'),
-      ssl: env('DATABASE_SSL', false)
+      ssl: env.bool(true),
     },
   },
 });
+*/
